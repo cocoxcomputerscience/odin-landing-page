@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-container {
+    /* same as footer and hero. maybe simplify code more later */
+    background-color: #1F2937;
+    padding: 16px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    /* same as footer and header. maybe simplify code more later */
+    background-color: #1F2937;
+
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container-two {
+    max-width: 500px;
+
+    /* do i need this? */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    width: 120px;
+    height: 32px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
