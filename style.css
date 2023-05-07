@@ -27,7 +27,7 @@ a {
 .header-container {
     /* same as footer and hero. maybe simplify code more later */
     background-color: #1F2937;
-    padding: 16px 150px;
+    padding: 16px 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -36,19 +36,29 @@ a {
     /* same as footer and header. maybe simplify code more later */
     background-color: #1F2937;
 
-    padding: 100px 150px;
+    padding: 100px 50px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-container-two {
     max-width: 500px;
+    min-width: 300px;
 
     /* do i need this? */
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
+    flex: 1;
+}
+
+.hero-container img {
+    max-width: 500px;
+    max-height: 300px;
+    flex: 1;
 }
 
 .hero-main-text {
@@ -70,4 +80,55 @@ a {
     border: none;
     font-size: 18px;
     border-radius: 6px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 50px 100px 50px;
+    flex-wrap: wrap;
+}
+
+.content-info {
+    width: 150px;
+}
+
+.content-info img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.content-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-author {
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
 }
