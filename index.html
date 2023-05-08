@@ -2,58 +2,73 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>
+        <title>FRUITS</title>
         <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <div class="header-container">
-            <div class="header-logo">Header Logo</div>
-
-            <div class="header-links">
-                <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
+        <header class="header-container">
+            <div class="header-container-two">
+                <img class="header-logo" src="./img/fruits-basket.jpeg" alt="a small picture of a fruits basket" width="100px" height="100px">
+                <h1 class="header-title">FRUITS</h1>
             </div>
-        </div>
 
-        <div class="hero-container">
-            <div class="hero-container-two">
-                <div class="hero-main-text">This website is awesome</div>
-                <div class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                <button class="hero-button">Sign up</button>
-            </div>
-            <img src="./img/sky.jpg" alt="sky">
-        </div>
+            <nav class="nav-bar">
+                <a href="#">link 1</a>
+                <a href="#">link 2</a>
+                <a href="#">link 3</a>
+            </nav>
+        </header>
 
-        <div>
-            <div class="content-title">Some random information.</div>
+        <main>
+            <section class="hero-container">
+                <div class="hero-container-two">
+                    <h2 class="hero-main-text">BENEFITS</h2>
+                    <p class="hero-secondary-text">Fruits are high in antioxidants which help cleanse your body. Not only that, but they are also very delicious!</p>
+                </div>
+                <img src="./img/eating-fruit.jpg" alt="sky" width="500px" height="250px">
+            </section>
+    
+            <section>
+                <h2 class="content-title">VARIETY</h2>
+    
+                <div class="content-container">
+                    <div class="content-info">
+                        <img src="./img/apples.jpg" alt="a bunch of apples" width="150" height="150">
+                        <p class="content-text">APPLES</p>
+                    </div>
+                    <div class="content-info">
+                        <img src="./img/oranges.jpg" alt="a bunch of oranges" width="150" height="150">
+                        <p class="content-text">ORANGES</p>
+                    </div>
+                    <div class="content-info">
+                        <img src="./img/lemons.jpg" alt="a bunch of lemons" width="150" height="150">
+                        <p class="content-text">LEMONS</p>
+                    </div>
+                    <div class="content-info">
+                        <img src="./img/pears.jpg" alt="a bunch of pears" width="150" height="150">
+                        <p class="content-text">PEARS</p>
+                    </div>
+                </div>
+            </section>
+    
+            <aside class="quote-container">
+                <p class="quote-text">Apples, oranges, lemons, and pears. You can have a taste of the rainbow&#8212;one that's healthy. Why not give it a try? </p>
+                <p class="quote-author">-Coco, the creator of this lovely webpage</p>
+            </aside>
+    
+            <section class="register-container">
+                <div class="register-container-two">
+                    <p class="register-text-one">SIGN UP TO RECEIVE THE QUOTE DAILY</p>
+                    <p class="register-text-two">EMAIL</p>
+                    <input type="email" id="email">
+                    <button class="register-button">REGISTER</button>
+                </div>
+            </section>
+        </main>
 
-            <div class="content-container">
-                <div class="content-info">
-                    <img src="./img/sky-two.jpg" alt="smaller picture of the sky">
-                    <div class="content-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="content-info">
-                    <img src="./img/sky-two.jpg" alt="smaller picture of the sky">
-                    <div class="content-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="content-info">
-                    <img src="./img/sky-two.jpg" alt="smaller picture of the sky">
-                    <div class="content-text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="content-info">
-                    <img src="./img/sky-two.jpg" alt="smaller picture of the sky">
-                    <div class="content-text">this is some subtext under an illustration or image</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="quote-container">
-            <div class="quote-text">This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-            <div class="quote-author">-Thor, God of Thunder</div>
-        </div>
+        <footer class="footer">
+            Copyright &#169 The Odin Project 2023
+        </footer>
     </body>
 </html>
